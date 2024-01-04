@@ -1,0 +1,31 @@
+
+.checkout__bill{
+  background: #fde4e4;
+  padding: 30px;
+  /* display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1rem 0; */
+}
+
+.checkout__total{
+  border-top: 1px solid #ddd;
+  padding-top: 30px;
+}
+
+.checkout__total p{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .checkout__bill h6{
+    font-size: .9rem;
+  }
+
+  .checkout__bill{
+    margin: top 40px;
+  }
+}
